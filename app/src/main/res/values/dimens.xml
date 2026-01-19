@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="shortcut_padding">60dp</dimen>
+</resources>

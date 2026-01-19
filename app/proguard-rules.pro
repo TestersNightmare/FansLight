@@ -1,0 +1,2 @@
+-dontwarn org.jetbrains.kotlin.**
+-dontwarn com.duolingo.open.rtlviewpager.RtlViewPager

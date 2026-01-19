@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/shortcut_bright_display_background">
+        <shape android:shape="oval">
+            <solid android:color="@color/color_primary" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="@dimen/shortcut_padding"
+        android:drawable="@drawable/ic_bright_display_vector"
+        android:left="@dimen/shortcut_padding"
+        android:right="@dimen/shortcut_padding"
+        android:top="@dimen/shortcut_padding" />
+
+</layer-list>
