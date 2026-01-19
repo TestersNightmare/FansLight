@@ -132,7 +132,8 @@ class BrightDisplayActivity : ComponentActivity() {
     ) : AndroidViewModel(application) {
 
         // 初始化颜色从持久化配置中读取
-        private val _backgroundColor = MutableStateFlow(application.config.brightDisplayColor)
+        private val _backgroundColor = MutableStateFlow(android.graphics.Color.WHITE)
+        //private val _backgroundColor = MutableStateFlow(application.config.brightDisplayColor)
         val backgroundColor = _backgroundColor.asStateFlow()
 
         fun updateBackgroundColor(color: Int) {
